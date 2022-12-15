@@ -21,7 +21,7 @@ gbx_files.forEach(gbx_file => {
     let end = start + 12 + size;
     let webmImage = data.slice(start, end);
 
-    let output_path = output_folder + gbx_file + ".webp";
+    let output_path = output_folder + gbx_file.replace(".Gbx", ".webp");
 
     sharp(webmImage).flip().toFile(output_path, (err, info) => {
         if(err) throw err;
