@@ -1,0 +1,21 @@
+{
+  "name": "gbx_block_image_extractor",
+  "version": "1.0.0",
+  "description": "Extracts the Webp Image File from Multiple GBX Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webp",
+    "gbx",
+    "extract",
+    "trackmania"
+  ],
+  "author": "ZZD",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sharp": "^0.31.2"
+  }
+}
